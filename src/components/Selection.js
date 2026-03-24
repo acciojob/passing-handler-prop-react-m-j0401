@@ -10,7 +10,7 @@ function Selection(props) {
   }
 
   return (
-    <div className='fix-box' style={style} onClick={handleClick}>
+    <div className='fix-box' style={style} onClick={handleClick} >
       <p className='subheading'>Selection</p>
     </div>
   );
